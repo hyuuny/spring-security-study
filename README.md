@@ -4,7 +4,12 @@
 
 ## Spring Security Architecture &#128522;
 [1.SecurityContextHolder](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/1.SecurityContextHolder.md)   
-[2.AuthenticationManager](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/2.AuthenticationManager.md)
+[2.AuthenticationManager](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/2.AuthenticationManager.md)  
+[3.ThreadLocal](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/3.TheadLocal.md)  
+[4.Authentication](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/4.Authentication.md)  
+[5.Filter](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/5.Filter.md)  
+[6.DelegatingFilterProxy](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/6.DelegatingFilterProxy.md)
+
 
 * * *
 
