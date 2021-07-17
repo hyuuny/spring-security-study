@@ -8,7 +8,10 @@
 [3.ThreadLocal](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/3.TheadLocal.md)  
 [4.Authentication](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/4.Authentication.md)  
 [5.Filter](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/5.Filter.md)  
-[6.DelegatingFilterProxy](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/6.DelegatingFilterProxy.md)
+[6.DelegatingFilterProxy](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/6.DelegatingFilterProxy.md)  
+[7.AccessDecisionManager](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/7.AccessDecisionManager.md)   
+[8.FilterSecurityInterceptor](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/8.FilterSecurityInterceptor.md)  
+[9.ExceptionTranslationFilter](https://github.com/hyuuny/spring-security-study/blob/master/markdown/architecture/9.ExceptionTranslationFilter.md)   
 
 
 * * *
