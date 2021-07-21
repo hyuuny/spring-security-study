@@ -4,11 +4,14 @@ import static org.springframework.util.ObjectUtils.isEmpty;
 
 import com.setge.springsecuritystudy.account.AccountContext;
 import com.setge.springsecuritystudy.account.AccountRepository;
+import com.setge.springsecuritystudy.common.SecurityLogger;
 import java.security.Principal;
+import java.util.concurrent.Callable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class SampleController {
@@ -54,6 +57,25 @@ public class SampleController {
   public String user(Model model, Principal principal) {
     model.addAttribute("message", "Hello User, " + principal.getName());
     return "user";
+  }
+
+  @GetMapping("/async-handler")
+  @ResponseBody // 응답에 대한 요청값을 body에 실어 보냄.
+  public Callable<String> asyncHandler() {
+    SecurityLogger.log("MVC");
+    return () -> {
+      SecurityLogger.log("Callable");
+      return "Async Handler";
+    };
+  }
+
+  @GetMapping("/async-service")
+  @ResponseBody
+  public String asyncService() {
+    SecurityLogger.log("MVC, before async service");
+    sampleService.asyncService();
+    SecurityLogger.log("MVC, after async service");
+    return "Async Handler";
   }
 
 
