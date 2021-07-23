@@ -32,13 +32,16 @@ public class SpringConfig extends WebSecurityConfigurerAdapter {
     @Override
   protected void configure(HttpSecurity http) throws Exception {
     http.authorizeRequests()
-        .antMatchers("/", "/info", "/account/**").permitAll() // 누구나 접근 가능
+        .antMatchers("/", "/info", "/account/**", "/signup").permitAll() // 누구나 접근 가능
         .mvcMatchers("/admin").hasRole("ADMIN") // hasRole로 접근 가능한 권한 부여
         .mvcMatchers("/user").hasRole("USER")
         .anyRequest().authenticated() // anyRequest().authenticated() <- 그 외 인증만 하면 접근 가능
         .expressionHandler(expressionHandler());
     http.formLogin();
     http.httpBasic();
+
+      http.logout()
+          .logoutSuccessUrl("/"); // 로그아웃 후 "/" 페이지로 이동
 
       SecurityContextHolder.setStrategyName(SecurityContextHolder.MODE_INHERITABLETHREADLOCAL);
   }
