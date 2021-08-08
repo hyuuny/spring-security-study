@@ -36,6 +36,11 @@
 [17.RememberMeAuthenticationFilter](https://github.com/hyuuny/spring-security-study/blob/master/markdown/webapplicationsecurity/17.RememberMeAuthenticationFilter.md)   
 [18.커스텀 필터 추가](https://github.com/hyuuny/spring-security-study/blob/master/markdown/webapplicationsecurity/18.%EC%BB%A4%EC%8A%A4%ED%85%80%20%ED%95%84%ED%84%B0%20%EC%B6%94%EA%B0%80.md)   
 
+* * *
+
+## besides 🤗
+[타임리프 스프링 시큐리티 확장팩](https://github.com/hyuuny/spring-security-study/blob/master/markdown/besides/%ED%83%80%EC%9E%84%EB%A6%AC%ED%94%84%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%20%ED%99%95%EC%9E%A5%ED%8C%A9%20%EC%84%A4%EC%A0%95.md)   
+
 
 * * *
 
