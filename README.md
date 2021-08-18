@@ -42,6 +42,7 @@
 [타임리프 스프링 시큐리티 확장팩](https://github.com/hyuuny/spring-security-study/blob/master/markdown/besides/%ED%83%80%EC%9E%84%EB%A6%AC%ED%94%84%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%20%ED%99%95%EC%9E%A5%ED%8C%A9%20%EC%84%A4%EC%A0%95.md)   
 [메소드 시큐리티](https://github.com/hyuuny/spring-security-study/blob/3031139d58438452d8812cf7537a8418c4221393/markdown/besides/%EB%A9%94%EC%86%8C%EB%93%9C%20%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0.md)   
 [sec 네임스페이스](https://github.com/hyuuny/spring-security-study/blob/master/markdown/besides/sec%20%EB%84%A4%EC%9E%84%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4.md)   
+[@AuthenticationPrincipal](https://github.com/hyuuny/spring-security-study/blob/master/markdown/besides/%40AuthenticationPrincipal.md)   
 
 
 * * *
